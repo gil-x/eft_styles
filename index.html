@@ -11,6 +11,72 @@
 
     <body>
 
+<div class="row container-alerts mb-5">
+
+    <div class="col-sm-12 col-md-9" id="alerts_container">
+        <div class="col" id="bell_content">
+        <i class="fas fa-bell" aria-hidden="true" id="bell_modal"></i>
+        </div>
+    
+        <div class="col" id="modal_content">
+        <button type="button" name="newsletter" id="news_modal" class="" data-toggle="modal" data-target="#newsletter_modal">
+            Je veux reçevoir une alerte chaque jour
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="newsletter_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                </div>
+
+                <div class="modal-body">
+                <input class="form-control" type="email" name="email" placeholder="adresse email">
+                </div>
+
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary">Inscription</button>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="col-sm-12 col-md-3" id="share-socials">
+        <div class="col-sm-12" id="text-share-calendar"><p>Partager ce calendrier</p></div>
+        <div class="col-sm-12 pb-1" id="button-group-socials">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank" class="button_fb">
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/intent/tweet?button_hashtag=boutton&amp;ref_src=twsrc%5Etfw" target="_blank" class="button_twitter" data-show-count="false">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+            <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="mailto:#" class="button_mailto">
+            <i class="fas fa-paper-plane"></i>
+            </a>
+        
+        </div>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 <div id="content-calendar">
     <div data-day="1" style="background-color: rgb(157, 247, 229);" class="item">
         <div class="numero-day">03</div>

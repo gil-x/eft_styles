@@ -59,6 +59,7 @@ body {
 }
 
 .button.action {
+    color: white;
     background-color: rgb(254,95,85);
 }
 
@@ -66,4 +67,5 @@ body {
     filter: saturate(1.2);
     transform: translate(2px, 2px);
     box-shadow: 2px 2px 0px rgba(0,0,0, 0.75);
+    text-decoration: underline;
 }
